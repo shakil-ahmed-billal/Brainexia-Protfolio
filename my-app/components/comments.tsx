@@ -41,7 +41,7 @@ const Comments: React.FC = () => {
                 </div>
 
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-stretch min-h-[500px]">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-6 lg:gap-12 items-stretch min-h-[500px]">
                     {testimonials.map((item, index) => {
                         const isHighlighted = activeIndex === index;
 

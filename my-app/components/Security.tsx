@@ -46,7 +46,7 @@ function Security() {
                         <div className="w-full lg:basis-[50%] relative min-h-[400px] md:min-h-[500px] lg:min-h-[220px] flex items-center justify-center mt-10 lg:mt-0">
                             <div className="absolute inset-0 hero-radial-bg" />
 
-                            <div className="absolute -left-10 md:left-0 lg:-left-30 top-40 md:top-60 lg:top-110 z-10">
+                            <div className="absolute lg:-left-10 left-5 top-61 md:left-0 lg:-left-30 md:top-40 md:top-60 lg:top-110 z-10">
                                 <Image
                                     src="/frame1.png"
                                     alt="Graphics 1"

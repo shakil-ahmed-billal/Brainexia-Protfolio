@@ -50,7 +50,7 @@ export default function Hero() {
 
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] hero-radial-bg1 -z-10 opacity-60" />
 
-                    <div className="flex justify-center lg:justify-end absolute -top-10 left-0 lg:-left-45 ">
+                    <div className="flex justify-center lg:justify-end absolute -top-10 left-0  md:left-30 lg:-left-45 z-11 md:z-0">
                         <Image
                             src="/h-1.svg"
                             alt="Graphics 1"
@@ -72,7 +72,18 @@ export default function Hero() {
                         />
                     </div>
 
-                    <div className="flex justify-center lg:justify-end absolute top-32 lg:top-60 right-0 lg:-left-20 z-5">
+                    <div className="flex justify-center lg:justify-end absolute top-32 lg:top-60 right-0 md:right-32 lg:-left-20 z-5 lg:hidden">
+                        <Image
+                            src="/card3.png"
+                            alt="Graphics 3"
+                            width={400}
+                            height={400}
+                            priority
+                            className="object-contain w-[200px] lg:w-[400px] h-auto"
+                        />
+                    </div>
+                    {/*just for lg devices*/}
+                    <div className="flex justify-center lg:justify-end absolute top-32 lg:top-60 left-0 lg:-left-20 z-5 hidden lg:block">
                         <Image
                             src="/card3.png"
                             alt="Graphics 3"

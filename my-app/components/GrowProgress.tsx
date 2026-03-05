@@ -31,20 +31,20 @@ const GrowProgress: React.FC = () => {
                     <h2 className="text-white text-[36px] md:text-[36px] font-bold mb-6 font2 leading-tight">
                         We Help To Grow Your Business
                     </h2>
-                    <p className="text-white/80 text-16px] max-w-2xl mx-auto leading-[24px] font1">
+                    <p className="text-white/80 text-[16px] max-w-2xl mx-auto leading-[24px] font1">
                         Quisque fermentum porta tincidunt. Interdum semper. Pellentesque
                         facilisis augue dolor mollis suscipit erat libero fermentum.
                     </p>
                 </div>
 
                 <div className="w-full">
-                    <div className="flex flex-col sm:flex-row flex-wrap justify-between items-center gap-10">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6 md:gap-10">
                         {stats.map((stat, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col items-center text-center min-w-[180px]"
+                                className="flex flex-col items-center text-center"
                             >
-                                <h3 className="text-white text-[48px] md:text-[64px] font-bold mb-2 tracking-tight font2">
+                                <h3 className="text-white text-[42px] md:text-[64px] font-bold mb-2 tracking-tight font2 leading-none">
                                     {inView ? (
                                         <CountUp
                                             end={stat.value}
@@ -55,7 +55,7 @@ const GrowProgress: React.FC = () => {
                                         "0"
                                     )}
                                 </h3>
-                                <p className="text-white/90 text-[18px] md:text-[18px] leading-[28px] font-medium font1 uppercase tracking-wider">
+                                <p className="text-white/90 text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-medium font1 uppercase tracking-wider">
                                     {stat.label}
                                 </p>
                             </div>
