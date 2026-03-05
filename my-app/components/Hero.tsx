@@ -50,7 +50,7 @@ export default function Hero() {
 
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] hero-radial-bg1 -z-10 opacity-60" />
 
-                    <div className="flex justify-center lg:justify-end absolute -top-10 left-0 md:right-50 lg:-left-45 z-11 md:z-0">
+                    <div className="flex justify-center lg:justify-end absolute -top-10 left-0  md:left-30 lg:-left-45 z-11 md:z-0">
                         <Image
                             src="/h-1.svg"
                             alt="Graphics 1"

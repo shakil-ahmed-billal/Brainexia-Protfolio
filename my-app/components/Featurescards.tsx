@@ -37,7 +37,7 @@ const FeatureCards = () => {
   return (
     <section className="bg-white">
       <div className="container-custom pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-4 lg:gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
