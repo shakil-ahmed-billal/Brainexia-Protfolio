@@ -36,7 +36,7 @@ const ReadyToUse: React.FC = () => {
                 </div>
 
 
-                <div className="relative w-full max-w-[600px] ml-auto">
+                <div className="relative text-center w-full max-w-[600px] ml-auto">
                     <Image
                         src="/image.png"
                         alt="Visa 2"
