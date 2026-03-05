@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@layer components {
+
+  .btn-primary {
+    @apply bg-[#3921F5] text-white px-7 py-2.5 rounded-full font-semibold hover:bg-indigo-700 transition shadow-md hover:shadow-indigo-200;
+  }
+
+
+
+  .h-color {
+    @apply text-[#162556];
+  }
+
+
+  .hero-radial-bg {
+    background: radial-gradient(circle, #deb3fa46 0%, rgba(210, 177, 221, 0.3) 40%, transparent 80%);
+    filter: blur(80px);
+    pointer-events: none;
+  }
+
+
+
+
+  .hero-radial-bg1 {
+
+    background: radial-gradient(circle, #C4F4D5 0%, rgba(146, 243, 227, 0.616) 40%, transparent 50%);
+    filter: blur(80px);
+    pointer-events: none;
+    border-radius: 50%;
+
+  }
+
+
+  .hero-radial-bg2 {
+
+    background: radial-gradient(circle, #7a78e473 0%, rgba(132, 131, 206, 0) 40%, transparent 50%);
+    filter: blur(80px);
+    pointer-events: none;
+    border-radius: 50%;
+
+  }
+
+
+  .p-color {
+    @apply text-[#4F4F4F];
+  }
+
+  .font1 {
+    font-family: var(--font-inter), sans-serif;
+  }
+
+
+  .font2 {
+    font-family: var(--font-space-grotesk), sans-serif;
+  }
+
+
+
+
+}
+
+
+.container-custom {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@layer utilities {
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+
+  .animate-scroll {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+  }
+}
