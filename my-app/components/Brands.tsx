@@ -12,7 +12,7 @@ export default function Brands() {
     const allLogos = [...logos, ...logos, ...logos, ...logos];
 
     return (
-        <section className="bg-white overflow-hidden py-20 border-b border-gray-200 lg:border-b-0">
+        <section className="bg-white overflow-hidden py-1 lg:py-20 border-b border-gray-200 lg:border-b-0">
             <div className="container-custom ">
 
                 <div className="relative flex overflow-hidden group">
