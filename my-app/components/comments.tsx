@@ -6,7 +6,7 @@ const testimonials = [
     {
         name: 'Jenny Wilson',
         role: 'Project Manager at Microsoft',
-        image: '/image1.png',
+        image: '/smileman.png',
         content: '“I just simply love tools that make my life easier! I have everything that I need in one place, and that allows our team to be more organized and user-oriented.”',
     },
     {
