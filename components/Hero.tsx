@@ -74,7 +74,7 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end absolute top-0 -right-5 lg:-right-15 z-10 w-full">
             <Image
-              src="/h2.png"
+              src="/hero/hero-graphics-2.png"
               alt="Graphics 2"
               width={1800}
               height={1800}
@@ -85,7 +85,7 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end absolute top-32 lg:top-60 right-0 md:right-32 lg:-left-20 z-5 lg:hidden">
             <Image
-              src="/hero-card.png"
+              src="/hero/hero-card.png"
               alt="Graphics 3"
               width={400}
               height={400}
@@ -96,7 +96,7 @@ export default function Hero() {
           {/*just for lg devices*/}
           <div className="flex justify-center lg:justify-end absolute top-32 lg:top-60 left-0 lg:-left-20 z-5 hidden lg:block">
             <Image
-              src="/hero-card.png"
+              src="/hero/hero-card.png"
               alt="Graphics 3"
               width={400}
               height={400}
