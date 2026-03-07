@@ -22,7 +22,7 @@ function Transection() {
                 />
               </div>
 
-              <div className="flex flex-col -ml-15 lg:-ml-25 z-20">
+              <div className="flex flex-col -ml-12 md:-ml-15 lg:-ml-25 z-20">
                 <Image
                   src="/cards/visa-card-2.png"
                   alt="Visa 2"

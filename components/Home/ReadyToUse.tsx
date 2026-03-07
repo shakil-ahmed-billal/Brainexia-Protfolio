@@ -5,7 +5,7 @@ import React from "react";
 const ReadyToUse: React.FC = () => {
   return (
     <section className="w-full bg-white py-24 overflow-hidden">
-      <div className="container-custom mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="container-custom px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="max-w-xl">
           <h2 className="h-color text-[32px] sm:text-[36px] font-bold font2 mt-10 leading-[48px]">
             Ready To Use Our App With No Hidden Malware
