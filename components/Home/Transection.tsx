@@ -1,4 +1,5 @@
-import Accordion from "@/components/Accordion";
+
+import Accordion from "@/components/Home/Accordion";
 import Image from "next/image";
 
 function Transection() {
@@ -42,13 +43,13 @@ function Transection() {
             </div>
 
             <div className="w-full lg:basis-[46%] text-center lg:text-left">
-              <h3 className="font2 h-color text-3xl md:text-[36px] font-bold leading-tight md:leading-[48px]">
+              <h2 className="font2 h-color text-[25px] md:text-[36px] font-bold leading-tight md:leading-[48px]">
                 Performance Is The Key
                 <span className="block">To Most People Achieving</span>A Better
                 Future
-              </h3>
+              </h2>
 
-              <p className="font1 p-color text-base md:text-[16px] mt-4 lg:mt-2.5">
+              <p className="font1 p-color text-[14px] md:text-[16px] mt-4 lg:mt-2.5">
                 Etiam euismod odio euismod lacus fringilla hendrer.
               </p>
 

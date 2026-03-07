@@ -32,7 +32,7 @@ function DashboardImage() {
                 height={400}
                 src="/dashboard/laptop-chart.png"
                 alt="Data Analysis Dashboard Graphics"
-                className="lg:w-[280px] lg:h-[280px] md:w-[180px] md:h-[180px] h-[130px] w-[130px] object-contain z-9 absolute  top-0 right-5 lg:right-0"
+                className="lg:w-[280px] lg:h-[280px] md:w-[180px] md:h-[180px] h-[130px] w-[130px] object-contain z-9 absolute top-18 sm:top-0 right-5 lg:right-0"
               />
 
               <Image
@@ -40,7 +40,7 @@ function DashboardImage() {
                 height={400}
                 src="/dashboard/mobile-chart.png"
                 alt="Data Analysis Dashboard Graphics"
-                className="lg:w-[280px] lg:h-[280px] md:w-[180px] md:h-[180px] h-[130px] w-[130px] object-contain z-9 absolute lg:top-55 md:top-35 top-31 right-5 lg:right-0"
+                className="lg:w-[280px] lg:h-[280px] md:w-[180px] md:h-[180px] h-[130px] w-[130px] object-contain z-9 absolute lg:top-55 md:top-35 top-59 sm:top-31 right-5 lg:right-0"
               />
             </div>
           </div>

@@ -60,7 +60,7 @@ const Circle: React.FC = () => {
           <h3 className="h-color text-3xl md:text-[36px] font-bold font2 leading-tight">
             Why Will You Choose Our Application
           </h3>
-          <p className="p-color mt-4 text-base leading-relaxed">
+          <p className="p-color mt-4 text-[14px] sm:text-base leading-relaxed">
             Class aptent taciti sociosqu ad litora torquen conubia nostramase
             inceptos himenaeos. Phasellus metus nisl euismod eget lorem.
           </p>

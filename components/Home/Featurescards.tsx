@@ -54,7 +54,7 @@ const FeatureCards = () => {
               </h3>
 
 
-              <p className="text-gray-500 leading-relaxed font1 text-[18px] leading-[32px]">
+              <p className="text-gray-500 leading-relaxed font1 text-[16px] sm:text-[18px] leading-[32px]">
                 {feature.description}
               </p>
             </div>

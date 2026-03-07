@@ -33,10 +33,10 @@ const Comments: React.FC = () => {
     <section className="bg-[#fcfcfc] pt-12 pb-24 px-6 overflow-hidden">
       <div className="container-custom mx-auto text-center">
         <div className="mb-20">
-          <h2 className="text-[#0a1d37] text-[36px] font-bold mb-6 font2">
+          <h2 className="text-[#0a1d37] text-[30px] sm:text-[36px] font-bold mb-6 font2">
             What People Say
           </h2>
-          <p className="text-gray-400 text-[16px] max-w-2xl mx-auto leading-relaxed font1">
+          <p className="text-gray-400 text-[14px] md:text-[16px] max-w-2xl mx-auto leading-relaxed font1">
             Quisque fermentum porta tincidunt. Interdum semper. <br />
             Pellentesque facilisis augue mollis suscipit.
           </p>
@@ -52,11 +52,10 @@ const Comments: React.FC = () => {
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(1)}
                 className={`relative p-10 py-16 rounded-2xl transition-all duration-500 flex flex-col items-center text-center cursor-pointer
-                                    ${
-                                      isHighlighted
-                                        ? "bg-white shadow-[0_40px_100px_rgba(0,0,0,0.1)] z-10 scale-105"
-                                        : "bg-transparent scale-100"
-                                    }`}
+                                    ${isHighlighted
+                    ? "bg-white shadow-[0_40px_100px_rgba(0,0,0,0.1)] z-10 scale-105"
+                    : "bg-transparent scale-100"
+                  }`}
               >
                 <div className="relative w-24 h-24 mb-8 shrink-0">
                   <div
@@ -72,7 +71,7 @@ const Comments: React.FC = () => {
                 </div>
 
                 <p
-                  className={`text-[#12141D] text-[18px] leading-[28px] mb-8 font1 transition-opacity duration-500 ${isHighlighted ? "opacity-100" : "opacity-70"}`}
+                  className={`text-[#12141D] text-[16px] sm:text-[18px] leading-[28px] mb-8 font1 transition-opacity duration-500 ${isHighlighted ? "opacity-100" : "opacity-70"}`}
                 >
                   {item.content}
                 </p>

@@ -8,7 +8,7 @@ function Security() {
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-10">
             <div className="w-full lg:basis-[50%] mt-10 lg:mt-50 text-center lg:text-left">
               <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-15">
-                <h2 className="text-[28px] md:text-[36px] h-color font-bold font2 leading-tight">
+                <h2 className="text-[25px] md:text-[36px] h-color font-bold font2 leading-tight">
                   Better Security To Better
                   <span className="block">Protection An Experience</span>
                   <span className="block">Of Strength.</span>
@@ -23,7 +23,7 @@ function Security() {
                 />
               </div>
 
-              <p className="text-[#12141D] mt-6 max-w-md mx-auto lg:mx-0">
+              <p className="text-[#12141D] text-[14px] lg:text-[16px] mt-6 max-w-md mx-auto lg:mx-0">
                 Class aptent taciti sociosqu ad litora torquent conubia
                 <span className="lg:block">
                   nostrama inceptos himenaeos. Donec tristique nibh ipsum{" "}
@@ -35,15 +35,15 @@ function Security() {
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="h-color text-[21px] font-bold font2">
+                  <h4 className="h-color text-[19px] lg:text-[21px] font-bold font2">
                     Well Organised User Interface
                   </h4>
-                  <p className="p-color mt-2 text-[18px]">
+                  <p className="p-color mt-2 text-[16px] lg:text-[18px]">
                     Etiam id euismod odio. Ut euismod sem a lacus fringilla.
                   </p>
                 </div>
                 <div>
-                  <h4 className="h-color text-[21px] font-bold font2 mt-6 lg:mt-10">
+                  <h4 className="h-color text-[19px] lg:text-[21px] font-bold font2 mt-6 lg:mt-10">
                     Completely Bug Free
                   </h4>
                   <p className="p-color mt-2 text-[18px]">
@@ -56,7 +56,7 @@ function Security() {
             <div className="w-full lg:basis-[50%] relative min-h-[400px] md:min-h-[500px] lg:min-h-[220px] flex items-center justify-center mt-10 lg:mt-0">
               <div className="absolute inset-0 hero-radial-bg" />
 
-              <div className="absolute lg:-left-10 left-5 top-61 md:left-0 lg:-left-30 md:top-40 md:top-60 lg:top-110 z-10">
+              <div className="absolute lg:-left-10 left-0 top-61 md:left-0 lg:-left-30 md:top-40 md:top-60 lg:top-110 z-10">
                 <Image
                   src="/security/security-frame-1.png"
                   alt="Graphics 1"
@@ -66,7 +66,7 @@ function Security() {
                 />
               </div>
 
-              <div className="absolute left-10 md:left-20 lg:-left-10 top-20 md:top-40 lg:top-70 z-9">
+              <div className="absolute left-5 md:left-100 lg:-left-10 top-20 md:top-40 lg:top-70 z-9">
                 <Image
                   src="/security/security-frame-2.png"
                   alt="Graphics 2"
@@ -76,7 +76,7 @@ function Security() {
                 />
               </div>
 
-              <div className="absolute right-0 top-0 z-8">
+              <div className="absolute left-20 sm:right-0 top-0 z-8">
                 <Image
                   src="/security/security-frame-3.png"
                   alt="Graphics 3"

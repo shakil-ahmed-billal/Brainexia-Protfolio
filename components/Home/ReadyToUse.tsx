@@ -7,11 +7,11 @@ const ReadyToUse: React.FC = () => {
     <section className="w-full bg-white py-24 overflow-hidden">
       <div className="container-custom mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="max-w-xl">
-          <h2 className="h-color text-[36px] font-bold font2 mt-10 leading-[48px]">
+          <h2 className="h-color text-[32px] sm:text-[36px] font-bold font2 mt-10 leading-[48px]">
             Ready To Use Our App With No Hidden Malware
           </h2>
 
-          <p className="p-color mt-4 text-[16px] leading-[26px]">
+          <p className="p-color mt-4 text-[14px] sm:text-[16px] leading-[26px]">
             Etiam euismod volutpat lacus fringilla henr. Mauris lobortis purus
             velit quis. Nunc mollis venenatis metus nec aliquet.
           </p>
@@ -20,7 +20,7 @@ const ReadyToUse: React.FC = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="w-full py-6 px-10 rounded-sm bg-white shadow-[0_20px_60px_rgba(0,0,0,0.15)] outline-none border-none text-gray-400 placeholder:text-gray-300 font1 text-lg"
+              className="w-full py-4 sm:py-6 px-10 rounded-sm bg-white shadow-[0_20px_60px_rgba(0,0,0,0.15)] outline-none border-none text-gray-400 placeholder:text-gray-300 font1 text-lg"
             />
           </div>
 

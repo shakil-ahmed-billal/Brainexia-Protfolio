@@ -29,10 +29,10 @@ const GrowProgress: React.FC = () => {
     >
       <div className="container-custom mx-auto px-6 text-center">
         <div className="mb-16 md:mb-24">
-          <h2 className="text-white text-[36px] md:text-[36px] font-bold mb-6 font2 leading-tight">
+          <h2 className="text-white text-[30px] sm:text-[36px] md:text-[36px] font-bold mb-6 font2 leading-tight">
             We Help To Grow Your Business
           </h2>
-          <p className="text-white/80 text-[16px] max-w-2xl mx-auto leading-[24px] font1">
+          <p className="text-white/80 text-[13px] sm:text-[16px] max-w-2xl mx-auto leading-[24px] font1">
             Quisque fermentum porta tincidunt. Interdum semper. Pellentesque
             facilisis augue dolor mollis suscipit erat libero fermentum.
           </p>

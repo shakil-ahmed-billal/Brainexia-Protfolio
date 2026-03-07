@@ -5,11 +5,11 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#0f172a] text-white pt-16 md:pt-24 pb-10 px-6 overflow-hidden">
+    <footer className="bg-[#0f172a] text-white pt-16 md:pt-24 pb-10 overflow-hidden">
       <div className="container-custom mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
           <div className="lg:col-span-4 flex flex-col space-y-6">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-8">
               <Image
                 src="/logos/logo-light.png"
                 alt="Brainexia Logo"

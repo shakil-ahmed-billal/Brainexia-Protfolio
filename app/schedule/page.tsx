@@ -1,7 +1,8 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+
+import Footer from "@/components/Home/Footer";
+import Navbar from "@/components/Home/Navbar";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import {
@@ -50,7 +51,7 @@ export default function SchedulePage() {
       } else {
         setError(
           result.error?.message ||
-            "Failed to schedule meeting. Please try a different time or contact us directly.",
+          "Failed to schedule meeting. Please try a different time or contact us directly.",
         );
       }
     } catch (err) {
@@ -114,13 +115,13 @@ export default function SchedulePage() {
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 rounded-full text-sm font-bold mb-6">
                 <FiCalendar className="animate-bounce" /> BOOK AN APPOINTMENT
               </div>
-              <h1 className="text-5xl lg:text-6xl font-black text-gray-900 mb-8 leading-tight">
+              <h1 className="text-4xl lg:text-6xl font-black text-gray-900 mb-8 leading-tight">
                 Let's Build Something{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 block">
                   Great Together
                 </span>
               </h1>
-              <p className="text-xl text-gray-600 mb-10 leading-relaxed font-medium">
+              <p className=" sm:text-xl text-gray-600 mb-10 leading-relaxed font-medium">
                 Ready to transform your vision into reality? Schedule a
                 30-minute discovery call to discuss your project and how
                 Brainexia can help you grow.
@@ -169,7 +170,7 @@ export default function SchedulePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-white p-10 rounded-[32px] shadow-2xl border border-gray-100 flex flex-col h-full"
             >
-              <h2 className="text-2xl font-bold mb-8 text-gray-800">
+              <h2 className="text-[28px] font-bold mb-8 text-gray-800">
                 Fill in the details
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6 flex-1">

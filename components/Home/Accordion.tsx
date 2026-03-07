@@ -33,9 +33,9 @@ export default function Accordion() {
                 <div key={index} className="border-b border-gray-200 ">
                     <button
                         onClick={() => toggleAccordion(index)}
-                        className="w-full flex justify-between items-center py-6 text-left transition-all cursor-pointer"
+                        className="w-full flex justify-between items-center py-5 sm:py-6 text-left transition-all cursor-pointer"
                     >
-                        <span className={`text-[21px] md:text-2xl font-bold font2 ${openIndex === index ? 'text-[#141F39]' : 'h-color'}`}>
+                        <span className={`text-[17px] md:text-2xl font-bold font2 ${openIndex === index ? 'text-[#141F39]' : 'h-color'}`}>
                             {item.title}
                         </span>
                         <span className="text-[18px] leading-[32px] font-bold text-blue-600 ml-4">
@@ -47,7 +47,7 @@ export default function Accordion() {
                         className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? "max-h-40 pb-6" : "max-h-0"
                             }`}
                     >
-                        <p className="p-color text-lg font1 leading-relaxed">
+                        <p className="p-color text-[16px] sm:text-lg font1 leading-relaxed">
                             {item.content}
                         </p>
                     </div>
