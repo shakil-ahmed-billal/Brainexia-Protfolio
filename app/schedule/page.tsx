@@ -31,8 +31,7 @@ export default function SchedulePage() {
       const startTime = new Date(formData.startTime);
       const endTime = new Date(startTime.getTime() + 30 * 60000); // Default 30 min duration
 
-      const response = await fetch(
-        "http://localhost:8000/api/v1/meetings/public",
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/meetings/public`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
