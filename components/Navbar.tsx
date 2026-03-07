@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Pages", href: "#" },
+    { name: "Schedule", href: "/schedule" },
     { name: "Pricing", href: "#" },
     { name: "Portfolio", href: "#" },
     { name: "Blog", href: "#" },
@@ -48,9 +48,12 @@ export default function Navbar() {
             {isOpen ? <HiX /> : <HiMenuAlt3 />}
           </button>
 
-          <button className="hidden sm:block bg-indigo-600 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-full font-semibold hover:bg-indigo-700 transition shadow-md whitespace-nowrap text-sm md:text-base order-2">
-            Get Started Free
-          </button>
+          <Link
+            href="/schedule"
+            className="hidden sm:block bg-indigo-600 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-full font-semibold hover:bg-indigo-700 transition shadow-md whitespace-nowrap text-sm md:text-base order-2"
+          >
+            Schedule a Meeting
+          </Link>
         </div>
       </div>
       <div
@@ -67,9 +70,12 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <button className="sm:hidden bg-indigo-600 text-white px-7 py-3 rounded-full font-semibold w-full shadow-lg">
+          <Link
+            href="/schedule"
+            className="hidden sm:block bg-indigo-600 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-full font-semibold hover:bg-indigo-700 transition shadow-md whitespace-nowrap text-sm md:text-base order-2"
+          >
             Get Started Free
-          </button>
+          </Link>
         </div>
       </div>
     </nav>

@@ -23,7 +23,7 @@ export default function Hero() {
             </button>
 
             <Link
-              href="#"
+              href="/schedule"
               className="flex items-center gap-2 text-blue-950 font-bold text-base lg:text-lg hover:text-indigo-600 transition"
             >
               Explore Service
